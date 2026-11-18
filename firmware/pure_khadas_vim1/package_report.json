@@ -1,0 +1,133 @@
+{
+  "path": "E:\\STB TOLOL\\unbrick\\unbrick\\Pure-Khadas-VIM1\\Pure-Khadas-VIM1.img",
+  "magic": "0x27b51956",
+  "version": 2,
+  "item_count": 15,
+  "items": [
+    {
+      "idx": 0,
+      "name": "DDR",
+      "type_id": 1,
+      "type_str": "USB",
+      "offset": 58368,
+      "size": 1179744,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\PureKhadasVIM1\\00_DDR_USB.bin"
+    },
+    {
+      "idx": 1,
+      "name": "UBOOT",
+      "type_id": 2,
+      "type_str": "UBOOT",
+      "offset": 1238112,
+      "size": 934400,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\PureKhadasVIM1\\01_UBOOT_UBOOT.bin"
+    },
+    {
+      "idx": 2,
+      "name": "aml_sdc_burn",
+      "type_id": 3,
+      "type_str": "ini",
+      "offset": 2172512,
+      "size": 602,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\PureKhadasVIM1\\02_aml_sdc_burn_ini.bin"
+    },
+    {
+      "idx": 3,
+      "name": "aml_sdc_burn",
+      "type_id": 4,
+      "type_str": "PARTITION",
+      "offset": 2173116,
+      "size": 16777216
+    },
+    {
+      "idx": 4,
+      "name": "boot",
+      "type_id": 5,
+      "type_str": "VERIFY",
+      "offset": 18950332,
+      "size": 48
+    },
+    {
+      "idx": 5,
+      "name": "boot",
+      "type_id": 6,
+      "type_str": "PARTITION",
+      "offset": 18950380,
+      "size": 1229408
+    },
+    {
+      "idx": 6,
+      "name": "bootloader",
+      "type_id": 7,
+      "type_str": "VERIFY",
+      "offset": 20179788,
+      "size": 48
+    },
+    {
+      "idx": 7,
+      "name": "bootloader",
+      "type_id": 8,
+      "type_str": "PARTITION",
+      "offset": 20179836,
+      "size": 16777216
+    },
+    {
+      "idx": 8,
+      "name": "logo",
+      "type_id": 9,
+      "type_str": "VERIFY",
+      "offset": 36957052,
+      "size": 48
+    },
+    {
+      "idx": 9,
+      "name": "logo",
+      "type_id": 10,
+      "type_str": "conf",
+      "offset": 36957100,
+      "size": 202,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\PureKhadasVIM1\\09_logo_conf.bin"
+    },
+    {
+      "idx": 10,
+      "name": "platform",
+      "type_id": 11,
+      "type_str": "PARTITION",
+      "offset": 36957304,
+      "size": 25165824,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\PureKhadasVIM1\\10_platform_PARTITION.bin"
+    },
+    {
+      "idx": 11,
+      "name": "recovery",
+      "type_id": 12,
+      "type_str": "VERIFY",
+      "offset": 62123128,
+      "size": 48
+    },
+    {
+      "idx": 12,
+      "name": "recovery",
+      "type_id": 13,
+      "type_str": "PARTITION",
+      "offset": 62123176,
+      "size": 1824522240
+    },
+    {
+      "idx": 13,
+      "name": "system",
+      "type_id": 14,
+      "type_str": "VERIFY",
+      "offset": 1886645416,
+      "size": 48
+    },
+    {
+      "idx": 14,
+      "name": "system",
+      "type_id": 734951845,
+      "type_str": "\ufffd\u0011E\ufffd\ufffd\ufffdP\ufffdq[p\ufffdJB\u0003?\u001a\ufffd\ufffd6l\ufffd\ufffd\ufffd\u0012\ufffd\ufffd\ufffde\ufffd\ufffda\u0004\ufffdE\ufffdr\ufffd<\ufffd\ufffd\ufffd\ufffd:\ufffd\ufffdy\b",
+      "offset": 13981348195665434868,
+      "size": 1892499711607849036
+    }
+  ]
+}

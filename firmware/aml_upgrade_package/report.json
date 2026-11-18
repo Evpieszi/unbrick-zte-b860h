@@ -1,0 +1,147 @@
+{
+  "header": {
+    "magic": 666179926,
+    "ver": 2,
+    "align": 4,
+    "count": 16,
+    "crc": 2327936693
+  },
+  "items": [
+    {
+      "idx": 0,
+      "name": "DDR",
+      "type": "USB",
+      "tid": 1,
+      "off": 58432,
+      "size": 884736,
+      "file": "E:\\unbrick-workspace\\unpacked\\aml_upgrade_package\\00_DDR_USB.bin",
+      "sha": "8152550a48ed6f94ddf540c208789f4f08f01dd330d6f12ac283527fd073f31a"
+    },
+    {
+      "idx": 1,
+      "name": "UBOOT",
+      "type": "UBOOT",
+      "tid": 2,
+      "off": 943168,
+      "size": 934400,
+      "file": "E:\\unbrick-workspace\\unpacked\\aml_upgrade_package\\01_UBOOT_UBOOT.bin",
+      "sha": "3f2061be23f1ad98ce0bac8005f0cc5143e316873f69c5f8f44bd30052ecaa2a"
+    },
+    {
+      "idx": 2,
+      "name": "aml_sdc_burn",
+      "type": "ini",
+      "tid": 3,
+      "off": 1877568,
+      "size": 602
+    },
+    {
+      "idx": 3,
+      "name": "aml_sdc_burn",
+      "type": "PARTITION",
+      "tid": 4,
+      "off": 1878172,
+      "size": 8425472
+    },
+    {
+      "idx": 4,
+      "name": "boot",
+      "type": "VERIFY",
+      "tid": 5,
+      "off": 10303644,
+      "size": 48
+    },
+    {
+      "idx": 5,
+      "name": "boot",
+      "type": "PARTITION",
+      "tid": 6,
+      "off": 10303692,
+      "size": 933888
+    },
+    {
+      "idx": 6,
+      "name": "bootloader",
+      "type": "VERIFY",
+      "tid": 7,
+      "off": 11237580,
+      "size": 48
+    },
+    {
+      "idx": 7,
+      "name": "bootloader",
+      "type": "PARTITION",
+      "tid": 8,
+      "off": 11237628,
+      "size": 1160640
+    },
+    {
+      "idx": 8,
+      "name": "logo",
+      "type": "VERIFY",
+      "tid": 9,
+      "off": 12398268,
+      "size": 48
+    },
+    {
+      "idx": 9,
+      "name": "logo",
+      "type": "dtb",
+      "tid": 10,
+      "off": 12398316,
+      "size": 79872,
+      "file": "E:\\unbrick-workspace\\unpacked\\aml_upgrade_package\\09_logo_dtb.bin",
+      "sha": "1adba974659a5b272c8c43c9fee5588d1c8db667dfff3fe760ed00e83c5f30cc"
+    },
+    {
+      "idx": 10,
+      "name": "meson1",
+      "type": "conf",
+      "tid": 11,
+      "off": 12478188,
+      "size": 202,
+      "file": "E:\\unbrick-workspace\\unpacked\\aml_upgrade_package\\10_meson1_conf.bin",
+      "sha": "80fe6cf8962733e49d78c1f4d8c8334e47d49c67d1ab6ea6322380787eb6cd01"
+    },
+    {
+      "idx": 11,
+      "name": "platform",
+      "type": "PARTITION",
+      "tid": 12,
+      "off": 12478392,
+      "size": 11358208
+    },
+    {
+      "idx": 12,
+      "name": "recovery",
+      "type": "VERIFY",
+      "tid": 13,
+      "off": 23836600,
+      "size": 48
+    },
+    {
+      "idx": 13,
+      "name": "recovery",
+      "type": "PARTITION",
+      "tid": 14,
+      "off": 23836648,
+      "size": 792922068
+    },
+    {
+      "idx": 14,
+      "name": "system",
+      "type": "VERIFY",
+      "tid": 15,
+      "off": 816758716,
+      "size": 48
+    },
+    {
+      "idx": 15,
+      "name": "system",
+      "type": "",
+      "tid": 4001309850,
+      "off": 211038793187648,
+      "size": 16842816
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "path": "E:\\STB TOLOL\\Brick_ONLY\\Brick_ONLY\\Brick_thru.img",
+  "magic": "0x27b51956",
+  "version": 2,
+  "item_count": 18,
+  "items": [
+    {
+      "idx": 0,
+      "name": "DDR",
+      "type_id": 1,
+      "type_str": "USB",
+      "offset": 60096,
+      "size": 1179744,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\00_DDR_USB.bin"
+    },
+    {
+      "idx": 1,
+      "name": "UBOOT",
+      "type_id": 2,
+      "type_str": "UBOOT",
+      "offset": 1239840,
+      "size": 934400,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\01_UBOOT_UBOOT.bin"
+    },
+    {
+      "idx": 2,
+      "name": "aml_sdc_burn",
+      "type_id": 3,
+      "type_str": "ini",
+      "offset": 2174240,
+      "size": 602,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\02_aml_sdc_burn_ini.bin"
+    },
+    {
+      "idx": 3,
+      "name": "aml_sdc_burn",
+      "type_id": 4,
+      "type_str": "PARTITION",
+      "offset": 2174844,
+      "size": 9760768
+    },
+    {
+      "idx": 4,
+      "name": "boot",
+      "type_id": 5,
+      "type_str": "VERIFY",
+      "offset": 11935612,
+      "size": 48
+    },
+    {
+      "idx": 5,
+      "name": "boot",
+      "type_id": 6,
+      "type_str": "PARTITION",
+      "offset": 11935660,
+      "size": 1229408
+    },
+    {
+      "idx": 6,
+      "name": "bootloader",
+      "type_id": 7,
+      "type_str": "VERIFY",
+      "offset": 13165068,
+      "size": 48
+    },
+    {
+      "idx": 7,
+      "name": "bootloader",
+      "type_id": 8,
+      "type_str": "PARTITION",
+      "offset": 13165116,
+      "size": 933232640
+    },
+    {
+      "idx": 8,
+      "name": "cache",
+      "type_id": 9,
+      "type_str": "VERIFY",
+      "offset": 946397756,
+      "size": 48
+    },
+    {
+      "idx": 9,
+      "name": "cache",
+      "type_id": 10,
+      "type_str": "PARTITION",
+      "offset": 946397804,
+      "size": 4194304
+    },
+    {
+      "idx": 10,
+      "name": "conf",
+      "type_id": 11,
+      "type_str": "VERIFY",
+      "offset": 950592108,
+      "size": 48,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\10_conf_VERIFY.bin"
+    },
+    {
+      "idx": 11,
+      "name": "conf",
+      "type_id": 12,
+      "type_str": "PARTITION",
+      "offset": 950592156,
+      "size": 1256744,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\11_conf_PARTITION.bin"
+    },
+    {
+      "idx": 12,
+      "name": "logo",
+      "type_id": 13,
+      "type_str": "VERIFY",
+      "offset": 951848900,
+      "size": 48
+    },
+    {
+      "idx": 13,
+      "name": "logo",
+      "type_id": 14,
+      "type_str": "dtb",
+      "offset": 951848948,
+      "size": 118784
+    },
+    {
+      "idx": 14,
+      "name": "meson1",
+      "type_id": 15,
+      "type_str": "conf",
+      "offset": 951967732,
+      "size": 202,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\14_meson1_conf.bin"
+    },
+    {
+      "idx": 15,
+      "name": "platform",
+      "type_id": 16,
+      "type_str": "PARTITION",
+      "offset": 951967936,
+      "size": 13423616,
+      "extracted": "E:\\unbrick-workspace\\unpacked\\Brick_thru\\15_platform_PARTITION.bin"
+    },
+    {
+      "idx": 16,
+      "name": "recovery",
+      "type_id": 17,
+      "type_str": "VERIFY",
+      "offset": 965391552,
+      "size": 48
+    },
+    {
+      "idx": 17,
+      "name": "recovery",
+      "type_id": 734951845,
+      "type_str": "\ufffd\u0011E\ufffd\ufffd\ufffdP\ufffdq[p\ufffdJB\u0003?\u001a\ufffd\ufffd6l\ufffd\ufffd\ufffd\u0012\ufffd\ufffd\ufffde\ufffd\ufffda\u0004\ufffdE\ufffdr\ufffd<\ufffd\ufffd\ufffd\ufffd:\ufffd\ufffdy\b",
+      "offset": 13981348195665434868,
+      "size": 1892499711607849036
+    }
+  ]
+}

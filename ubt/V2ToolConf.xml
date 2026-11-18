@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<temperature default="0" start="20" end="40"/>
+</Configuration>

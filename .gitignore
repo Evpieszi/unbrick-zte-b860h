@@ -1,0 +1,28 @@
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Generated chunk files (recreated by scripts)
+tools/chunks/
+tools/ddr_*_chunks/
+tools/uboot_*_chunks/
+tool/ddr_chunks/
+tool/ddr_chunks_32k/
+tool/t_*.bin
+tool/test_*.bin
+
+# Large firmware files (use Git LFS)
+firmware/aml_upgrade_package/part_system_big.bin
+firmware/aml_upgrade_package/part_system_big_raw.bin
+unpacked/system.raw.img
+
+# IDE / Editor
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log

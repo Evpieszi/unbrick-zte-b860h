@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Error_Message>
+	<Error code="0x00000000">
+		<Language ID="0" Description="ID为0表示中文，为1表示英文">烧录成功</Language>
+		<Language ID="1">Burning successfully</Language>
+		<Language ID="2" Description="ID为0表示中文，为1表示英文">燒錄成功</Language>
+	</Error>
+	<Error code="0x00000001">
+		<Language ID="0">连接成功</Language>
+		<Language ID="1">Connect success</Language>
+		<Language ID="2">連接成功</Language>
+	</Error>
+	<Error code="0x00000002">
+		<Language ID="0">擦除引导程序</Language>
+		<Language ID="1">Erase bootloader</Language>
+		<Language ID="2">擦除引導程序</Language>
+	</Error>
+	<Error code="0x00000003">
+		<Language ID="0">加载</Language>
+		<Language ID="1">Download</Language>
+		<Language ID="2">加載</Language>
+	</Error>
+	<Error code="0x00000004">
+		<Language ID="0">格式化</Language>
+		<Language ID="1">formatting</Language>
+		<Language ID="2">格式化</Language>
+	</Error>
+	<Error code="0x00000005">
+		<Language ID="0">烧</Language>
+		<Language ID="1">burn</Language>
+		<Language ID="2">燒</Language>
+	</Error>
+	<Error code="0x00000006">
+		<Language ID="0">失败</Language>
+		<Language ID="1">failed</Language>
+		<Language ID="2">失敗</Language>
+	</Error>
+	<Error code="0x00000007">
+		<Language ID="0">条码检测失败</Language>
+		<Language ID="1">Check barcode failed</Language>
+		<Language ID="2">條碼檢測失敗</Language>
+	</Error>
+	<Error code="0x00000008">
+		<Language ID="0">上传测试信息失败</Language>
+		<Language ID="1">Upload test information fail</Language>
+		<Language ID="2">上傳測試信息失敗</Language>
+	</Error>
+	<Error code="0x00000FFF">
+		<Language ID="0">获取要烧录的Key失败</Language>
+		<Language ID="1">Get key failed</Language>
+		<Language ID="2">獲取要燒錄的Key失敗</Language>
+	</Error>
+	<Error code="0x00101002">
+		<Language ID="0">擦除bootloader/USB限流/设备识别/USB控制命令出错</Language>
+		<Language ID="1">Erase bootloader/Lowper/Identify/USB Control setup error</Language>
+		<Language ID="2">擦除bootloader/USB限流/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x00101004">
+		<Language ID="0">擦除bootloader/USB限流/设备识别/命令结果返回错误</Language>
+		<Language ID="1">Erase bootloader/Lowper/Identify/Error result</Language>
+		<Language ID="2">擦除bootloader/USB限流/設備識別/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x00102002">
+		<Language ID="0">擦除bootloader/USB限流/下发命令/USB控制命令出错</Language>
+		<Language ID="1">Erase bootloader/Lowper/Send command/USB Control setup error</Language>
+		<Language ID="2">擦除bootloader/USB限流/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x00102004">
+		<Language ID="0">擦除bootloader/USB限流/下发命令/命令结果返回错误</Language>
+		<Language ID="1">Erase bootloader/Lowper/Send command/Error result</Language>
+		<Language ID="2">擦除bootloader/USB限流/下發命令/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x00201002">
+		<Language ID="0">擦除bootloader/执行擦除/判断/USB控制命令出错</Language>
+		<Language ID="1">Erase bootloader/Implement/Judge/USB Control setup error</Language>
+		<Language ID="2">擦除bootloader/執行擦除/判斷/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x00202002">
+		<Language ID="0">擦除bootloader/执行擦除/下发命令/USB控制命令出错</Language>
+		<Language ID="1">Erase bootloader/Implement/Send command/USB Control setup error</Language>
+		<Language ID="2">擦除bootloader/執行擦除/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x00202004">
+		<Language ID="0">擦除bootloader/执行擦除/下发命令/命令结果返回错误</Language>
+		<Language ID="1">Erase bootloader/Implement/Send command/Error result</Language>
+		<Language ID="2">擦除bootloader/執行擦除/下發命令/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x00203002">
+		<Language ID="0">擦除bootloader/执行擦除/重启/USB控制命令出错</Language>
+		<Language ID="1">Erase bootloader/Implement/Reset/USB Control setup error</Language>
+		<Language ID="2">擦除bootloader/執行擦除/重啟/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x00203004">
+		<Language ID="0">擦除bootloader/执行擦除/重启/命令结果返回错误</Language>
+		<Language ID="1">Erase bootloader/Implement/Reset/Error result</Language>
+		<Language ID="2">擦除bootloader/執行擦除/重啟/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x00301001">
+		<Language ID="0">擦除bootloader/状态切换/设备枚举/设备枚举异常</Language>
+		<Language ID="1">Erase bootloader/Switch status/Enum device/Enum error</Language>
+		<Language ID="2">擦除bootloader/狀態切換/設備枚舉/設備枚舉異常</Language>
+	</Error>
+	<Error code="0x10101002">
+		<Language ID="0">Romcode/初始化DDR/设备识别/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Initialize DDR/Identify/USB Control setup error</Language>
+		<Language ID="2">Romcode/初始化DDR/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10101004">
+		<Language ID="0">Romcode/初始化DDR/设备识别/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Initialize DDR/Identify/Error result</Language>
+		<Language ID="2">Romcode/初始化DDR/設備識別/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10102002">
+		<Language ID="0">Romcode/初始化DDR/初始化寄存器/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Initialize DDR/Initialize PLL/USB Control setup error</Language>
+		<Language ID="2">Romcode/初始化DDR/初始化寄存器/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10103003">
+		<Language ID="0">Romcode/初始化DDR/下载数据/USB传输出错</Language>
+		<Language ID="1">Romcode/Initialize DDR/Download buffer/USB transfer error</Language>
+		<Language ID="2">Romcode/初始化DDR/下載數據/USB傳輸出錯</Language>
+	</Error>
+	<Error code="0x10103005">
+		<Language ID="0">Romcode/初始化DDR/下载数据/读取镜像失败</Language>
+		<Language ID="1">Romcode/Initialize DDR/Download buffer/Read item data failed</Language>
+		<Language ID="2">Romcode/初始化DDR/下載數據/讀取鏡像失敗</Language>
+	</Error>
+	<Error code="0x10104002">
+		<Language ID="0">Romcode/初始化DDR/运行DDR/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Initialize DDR/Run DDR/USB Control setup error</Language>
+		<Language ID="2">Romcode/初始化DDR/運行DDR/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10105002">
+		<Language ID="0">Romcode/初始化DDR/读取初始化结果/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Initialize DDR/Read initialize status/USB Control setup error</Language>
+		<Language ID="2">Romcode/初始化DDR/讀取初始化結果/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10105004">
+		<Language ID="0">Romcode/初始化DDR/读取初始化结果/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Initialize DDR/Read initialize status/Error result</Language>
+		<Language ID="2">Romcode/初始化DDR/讀取初始化結果/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10201002">
+		<Language ID="0">Romcode/引导UBOOT/设备识别/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Identify/USB Control setup error</Language>
+		<Language ID="2">Romcode/引導UBOOT/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10201004">
+		<Language ID="0">Romcode/引导UBOOT/设备识别/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Identify/Error result</Language>
+		<Language ID="2">Romcode/引導UBOOT/設備識別/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10202005">
+		<Language ID="0">Romcode/引导UBOOT/下载UBOOT/读取镜像失败</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Download UBOOT/Read item data failed</Language>
+		<Language ID="2">Romcode/引導UBOOT/下載UBOOT/讀取鏡像失敗</Language>
+	</Error>
+	<Error code="0x10202003">
+		<Language ID="0">Romcode/引导UBOOT/下载UBOOT/传输出错</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Download UBOOT/Data tranfer error</Language>
+		<Language ID="2">Romcode/引導UBOOT/下載UBOOT/傳輸出錯</Language>
+	</Error>
+	<Error code="0x10203002">
+		<Language ID="0">Romcode/引导UBOOT/下载解压参数/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Download parameter/USB Control setup error</Language>
+		<Language ID="2">Romcode/引導UBOOT/下載解壓參數/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10203004">
+		<Language ID="0">Romcode/引导UBOOT/下载解压参数/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Download parameter/Error result</Language>
+		<Language ID="2">Romcode/引導UBOOT/下載解壓參數/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10204002">
+		<Language ID="0">Romcode/引导UBOOT/执行解压/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Decompress/USB Control setup error</Language>
+		<Language ID="2">Romcode/引導UBOOT/執行解壓/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10204004">
+		<Language ID="0">Romcode/引导UBOOT/执行解压/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Decompress/Error result</Language>
+		<Language ID="2">Romcode/引導UBOOT/執行解壓/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10205002">
+		<Language ID="0">Romcode/引导UBOOT/检测解压结果/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Check decompress/USB Control setup error</Language>
+		<Language ID="2">Romcode/引導UBOOT/檢測解壓結果/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10205004">
+		<Language ID="0">Romcode/引导UBOOT/检测解压结果/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Lead UBOOT/Check decompress/Error result</Language>
+		<Language ID="2">Romcode/引導UBOOT/檢測解壓結果/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10302001">
+		<Language ID="0">Romcode/状态切换/等待设备接入/设备枚举异常</Language>
+		<Language ID="1">Romcode/Switch status/Check connect/Enum device error</Language>
+		<Language ID="2">Romcode/狀態切換/等待設備接入/設備枚舉異常</Language>
+	</Error>
+	<Error code="0x10303002">
+		<Language ID="0">Romcode/状态切换/设备识别/USB控制命令出错</Language>
+		<Language ID="1">Romcode/Switch status/Identify/USB Control setup error</Language>
+		<Language ID="2">Romcode/狀態切換/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x10303004">
+		<Language ID="0">Romcode/状态切换/设备识别/命令结果返回错误</Language>
+		<Language ID="1">Romcode/Switch status/Identify/Error result</Language>
+		<Language ID="2">Romcode/狀態切換/設備識別/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x10401001">
+		<Language ID="0">Romcode/Bl2_Boot阶段错误</Language>
+		<Language ID="1">Romcode/Bl2_Boot stage Error</Language>
+		<Language ID="2">Romcode/Bl2_Boot階段錯誤</Language>
+	</Error>
+	<Error code="0x30101002">
+		<Language ID="0">UBOOT/USB限流/下发命令/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Low power/Send command/USB Control setup error</Language>
+		<Language ID="2">UBOOT/USB限流/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30101004">
+		<Language ID="0">UBOOT/USB限流/下发命令/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Low power/Send command/Error result</Language>
+		<Language ID="2">UBOOT/USB限流/下發命令/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30201002">
+		<Language ID="0">UBOOT/初始化存储/下发命令/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Disk initialize/Send command/USB Control setup error</Language>
+		<Language ID="2">UBOOT/初始化存儲/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30201006">
+		<Language ID="0">UBOOT/初始化存储/下发命令/等待超时</Language>
+		<Language ID="1">UBOOT/Disk initialize/Send command/Time out</Language>
+		<Language ID="2">UBOOT/初始化存儲/下發命令/等待超時</Language>
+	</Error>
+	<Error code="0x30201004">
+		<Language ID="0">UBOOT/初始化存储/下发命令/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Disk initialize/Send command/Error result</Language>
+		<Language ID="2">UBOOT/初始化存儲/下發命令/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30401002">
+		<Language ID="0">UBOOT/烧录分区 %s/设备识别/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Partition %s/Identify/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30401004">
+		<Language ID="0">UBOOT/烧录分区 %s/设备识别/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Partition %s/Identify/Error result</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/設備識別/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30402002">
+		<Language ID="0">UBOOT/烧录分区 %s/初始化分区/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Partition %s/Initialize partition/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/初始化分區/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30402004">
+		<Language ID="0">UBOOT/烧录分区 %s/初始化分区/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Partition %s/Initialize partition/Error result</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/初始化分區/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30403003">
+		<Language ID="0">UBOOT/烧录分区 %s/下载数据/传输出错</Language>
+		<Language ID="1">UBOOT/Partition %s/Download buffer/Data tranfer error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/下載數據/傳輸出錯</Language>
+	</Error>
+	<Error code="0x30403005">
+		<Language ID="0">UBOOT/烧录分区 %s/下载数据/读取镜像失败</Language>
+		<Language ID="1">UBOOT/Partition %s/Download buffer/Read item data failed</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/下載數據/讀取鏡像失敗</Language>
+	</Error>
+	<Error code="0x30404002">
+		<Language ID="0">UBOOT/烧录分区 %s/获取下载状态/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Partition %s/Get download status/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/獲取下載狀態/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30404004">
+		<Language ID="0">UBOOT/烧录分区 %s/获取下载状态/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Partition %s/Get download status/Error result</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/獲取下載狀態/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30405002">
+		<Language ID="0">UBOOT/烧录分区 %s/检验分区/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Partition %s/Verify patition/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/檢驗分區/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30405004">
+		<Language ID="0">UBOOT/烧录分区 %s/检验分区/命令结果返回错误</Language>
+		<Language ID="1">UBOOT/Partition %s/Verify patition/Error result</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/檢驗分區/命令結果返回錯誤</Language>
+	</Error>
+	<Error code="0x30405006">
+		<Language ID="0">UBOOT/烧录分区 %s/检验分区/等待命令结果超时</Language>
+		<Language ID="1">UBOOT/Partition %s/Verify patition/Timeout error</Language>
+		<Language ID="2">UBOOT/燒錄分區 %s/檢驗分區/等待命令結果超時</Language>
+	</Error>
+	<Error code="0x30501002">
+		<Language ID="0">UBOOT/初始化KEY驱动/下发命令/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Initialize key driver/Send command/USB Control setup error</Language>
+		<Language ID="2">UBOOT/初始化KEY驅動/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30601005">
+		<Language ID="0">UBOOT/烧录KEY %s/读取KEY/读取失败</Language>
+		<Language ID="1">UBOOT/Burn key %s/Read key buffer/Read buffer error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/讀取KEY/讀取失敗</Language>
+	</Error>
+	<Error code="0x30602002">
+		<Language ID="0">UBOOT/烧录KEY %s/设备识别/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Identify/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/設備識別/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30602004">
+		<Language ID="0">UBOOT/烧录KEY %s/设备识别/命令结果错误</Language>
+		<Language ID="1">UBOOT/Burn key %s/Identify/Error result</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/設備識別/命令結果錯誤</Language>
+	</Error>
+	<Error code="0x30603002">
+		<Language ID="0">UBOOT/烧录KEY %s/检测是否已经烧录过/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Have/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/檢測是否已經燒錄過/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30603004">
+		<Language ID="0">UBOOT/烧录KEY %s/检测是否已经烧录过/命令结果错误</Language>
+		<Language ID="1">UBOOT/Burn key %s/Have/Error result</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/檢測是否已經燒錄過/命令結果錯誤</Language>
+	</Error>
+	<Error code="0x30604002">
+		<Language ID="0">UBOOT/烧录KEY %s/判断是否支持/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Judge/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/判斷是否支持/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30604004">
+		<Language ID="0">UBOOT/烧录KEY %s/判断是否支持/不支持</Language>
+		<Language ID="1">UBOOT/Burn key %s/Judge/Not support</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/判斷是否支持/不支持</Language>
+	</Error>
+	<Error code="0x30604005">
+		<Language ID="0">UBOOT/烧录KEY %s/不能重复烧录</Language>
+		<Language ID="1">UBOOT/Burn key %s/Can not repeated burn</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/不能重複燒錄</Language>
+	</Error>
+	<Error code="0x30605002">
+		<Language ID="0">UBOOT/烧录KEY %s/下发命令/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Send download command/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/下發命令/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30605004">
+		<Language ID="0">UBOOT/烧录KEY %s/下发命令/命令结果错误</Language>
+		<Language ID="1">UBOOT/Burn key %s/Send download command/Error result</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/下發命令/命令結果錯誤</Language>
+	</Error>
+	<Error code="0x30606003">
+		<Language ID="0">UBOOT/烧录KEY %s/传输数据/USB传输出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Download/Data transfer error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/傳輸數據/USB傳輸出錯</Language>
+	</Error>
+	<Error code="0x30607002">
+		<Language ID="0">UBOOT/烧录KEY %s/获取传输状态/USB控制命令出错</Language>
+		<Language ID="1">UBOOT/Burn key %s/Get download status/USB Control setup error</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/獲取傳輸狀態/USB控制命令出錯</Language>
+	</Error>
+	<Error code="0x30607004">
+		<Language ID="0">UBOOT/烧录KEY %s/获取传输状态/命令结果错误</Language>
+		<Language ID="1">UBOOT/Burn key %s/Get download status/Error result</Language>
+		<Language ID="2">UBOOT/燒錄KEY %s/獲取傳輸狀態/命令結果錯誤</Language>
+	</Error>
+	<Error code="0x30701002">
+		<Language ID="0">Uboot/温度测试/下发命令/USB控制命令出错</Language>
+		<Language ID="1">Uboot/Temprature Testting/Send/USB Control setup error</Language>	
+		<Language ID="2">Uboot/溫度測試/下發命令/USB控制命令出錯</Language>	
+	</Error>
+	<Error code="0x30702002">
+		<Language ID="0">Uboot/温度测试/获取返回/USB控制命令出错</Language>
+		<Language ID="1">Uboot/Temprature Testting/Get result/USB Control setup error</Language>	
+		<Language ID="2">Uboot/溫度測試/獲取返回/USB控制命令出錯</Language>	
+	</Error>
+	<Error code="0x30702004">
+		<Language ID="0">Uboot/温度测试/获取返回/超出范围</Language>
+		<Language ID="1">Uboot/Temprature Testting/Get result/Out of range</Language>		
+		<Language ID="2">Uboot/溫度測試/獲取返回/超出範圍</Language>
+	</Error>
+	<Error code="0x32010101">
+		<Language ID="0">UBOOT/下发普通命令出错</Language>
+		<Language ID="1">Uboot/Send common command error</Language>		
+		<Language ID="2">Uboot/下發普通命令出錯</Language>
+	</Error>
+	<Error code="0x32010201">
+		<Language ID="0">UBOOT/获取普通命令返回出错</Language>
+		<Language ID="1">Uboot/Get common command result error</Language>		
+		<Language ID="2">Uboot/獲取普通命令返回出錯</Language>
+	</Error>	
+	<Error code="0x32030101">
+		<Language ID="0">UBOOT/下发命令/DiskInitial命令出错</Language>
+		<Language ID="1">Uboot/Send command/DiskInitial error</Language>		
+		<Language ID="2">Uboot/下發命令/DiskInitial出錯</Language>
+	</Error>
+	<Error code="0x32030201">
+		<Language ID="0">UBOOT/获取返回/DiskInitial命令出错</Language>
+		<Language ID="1">Uboot/Get result/DiskInitial error</Language>		
+		<Language ID="2">Uboot/獲取返回/DiskInitial出錯</Language>
+	</Error>
+	<Error code="0x32030301">
+		<Language ID="0">UBOOT/DiskInitial_Identify/出错</Language>
+		<Language ID="1">Uboot/DiskInitial_Identify/error</Language>		
+		<Language ID="2">Uboot/DiskInitial_Identify/出錯</Language>
+	</Error>	
+	<Error code="0x32050101">
+		<Language ID="0">UBOOT/burn_complete/出错</Language>
+		<Language ID="1">Uboot/burn_complete/error</Language>		
+		<Language ID="2">Uboot/burn_complete/出錯</Language>
+	</Error>	
+	<Error code="0xFFFFFFFF">
+		<Language ID="0">用户停止烧录</Language>
+		<Language ID="1">User stop burning</Language>
+		<Language ID="2">用戶停止燒錄</Language>
+	</Error>
+</Error_Message>

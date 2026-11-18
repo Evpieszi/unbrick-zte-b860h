@@ -1,0 +1,590 @@
+{
+ "MSVCRT.dll!memset": [
+  "0x405070"
+ ],
+ "KERNEL32.DLL!GetModuleHandleW": [
+  "0x405076",
+  "0x40554a"
+ ],
+ "KERNEL32.DLL!HeapCreate": [
+  "0x40507c",
+  "0x40a169",
+  "0x40e47c"
+ ],
+ "KERNEL32.DLL!GetStdHandle": [
+  "0x405082"
+ ],
+ "KERNEL32.DLL!SetConsoleCtrlHandler": [
+  "0x405088"
+ ],
+ "KERNEL32.DLL!HeapDestroy": [
+  "0x40508e",
+  "0x40a156",
+  "0x40e4a9"
+ ],
+ "KERNEL32.DLL!ExitProcess": [
+  "0x405094"
+ ],
+ "KERNEL32.DLL!WriteFile": [
+  "0x40509a",
+  "0x40b087",
+  "0x40b51d",
+  "0x40b576",
+  "0x40b61d",
+  "0x40b723"
+ ],
+ "KERNEL32.DLL!GetTempFileNameW": [
+  "0x4050a0"
+ ],
+ "KERNEL32.DLL!LoadLibraryExW": [
+  "0x4050a6"
+ ],
+ "KERNEL32.DLL!EnumResourceTypesW": [
+  "0x4050ac"
+ ],
+ "KERNEL32.DLL!FreeLibrary": [
+  "0x4050b2",
+  "0x409440",
+  "0x40adbe",
+  "0x40aee1",
+  "0x40e0a1"
+ ],
+ "KERNEL32.DLL!RemoveDirectoryW": [
+  "0x4050b8"
+ ],
+ "KERNEL32.DLL!EnumResourceNamesW": [
+  "0x4050be"
+ ],
+ "KERNEL32.DLL!GetCommandLineW": [
+  "0x4050c4",
+  "0x4096f4"
+ ],
+ "KERNEL32.DLL!LoadResource": [
+  "0x4050ca"
+ ],
+ "KERNEL32.DLL!SizeofResource": [
+  "0x4050d0"
+ ],
+ "KERNEL32.DLL!FreeResource": [
+  "0x4050d6"
+ ],
+ "KERNEL32.DLL!FindResourceW": [
+  "0x4050dc"
+ ],
+ "KERNEL32.DLL!GetNativeSystemInfo": [
+  "0x4050e2"
+ ],
+ "KERNEL32.DLL!GetShortPathNameW": [
+  "0x4050e8"
+ ],
+ "KERNEL32.DLL!GetWindowsDirectoryW": [
+  "0x4050ee"
+ ],
+ "KERNEL32.DLL!GetSystemDirectoryW": [
+  "0x4050f4"
+ ],
+ "MSVCRT.dll!wcsncmp": [
+  "0x4052f5"
+ ],
+ "MSVCRT.dll!memmove": [
+  "0x4052fb"
+ ],
+ "MSVCRT.dll!wcsncpy": [
+  "0x405301"
+ ],
+ "MSVCRT.dll!wcsstr": [
+  "0x405307"
+ ],
+ "MSVCRT.dll!_wcsnicmp": [
+  "0x40530d"
+ ],
+ "MSVCRT.dll!_wcsdup": [
+  "0x405313"
+ ],
+ "MSVCRT.dll!free": [
+  "0x405319",
+  "0x411d44"
+ ],
+ "MSVCRT.dll!_wcsicmp": [
+  "0x40531f"
+ ],
+ "MSVCRT.dll!wcslen": [
+  "0x405325"
+ ],
+ "MSVCRT.dll!wcscpy": [
+  "0x40532b"
+ ],
+ "MSVCRT.dll!wcscmp": [
+  "0x405331"
+ ],
+ "MSVCRT.dll!wcscat": [
+  "0x405337"
+ ],
+ "MSVCRT.dll!memcpy": [
+  "0x40533d"
+ ],
+ "MSVCRT.dll!tolower": [
+  "0x405343"
+ ],
+ "MSVCRT.dll!malloc": [
+  "0x405349",
+  "0x411d2a"
+ ],
+ "KERNEL32.DLL!TlsGetValue": [
+  "0x40534f",
+  "0x40d90f",
+  "0x40d9d0",
+  "0x40e4d5",
+  "0x40e50c",
+  "0x40e617",
+  "0x40e631",
+  "0x40e647",
+  "0x40e6ca",
+  "0x40e6fa",
+  "0x40e82a",
+  "0x40e87a",
+  "0x40e8ac",
+  "0x40e94a",
+  "0x40e97a",
+  "0x40e9fa",
+  "0x40ed0a",
+  "0x40ed4c",
+  "0x40ed95",
+  "0x412434"
+ ],
+ "SHLWAPI.DLL!PathAddBackslashW": [
+  "0x405355"
+ ],
+ "SHLWAPI.DLL!PathRenameExtensionW": [
+  "0x40535b"
+ ],
+ "SHLWAPI.DLL!PathQuoteSpacesW": [
+  "0x405361"
+ ],
+ "SHLWAPI.DLL!PathRemoveArgsW": [
+  "0x405367"
+ ],
+ "SHLWAPI.DLL!PathRemoveBackslashW": [
+  "0x40536d"
+ ],
+ "KERNEL32.DLL!EnterCriticalSection": [
+  "0x40537a",
+  "0x4053ef",
+  "0x40544c",
+  "0x4054b7",
+  "0x40986a",
+  "0x409926",
+  "0x409cec",
+  "0x409e84",
+  "0x40da34",
+  "0x40da84",
+  "0x40dac3",
+  "0x40dbb3",
+  "0x40dd0f",
+  "0x40dd7c",
+  "0x40de7a",
+  "0x40df7a",
+  "0x40e144",
+  "0x4123a3",
+  "0x41245f"
+ ],
+ "KERNEL32.DLL!CloseHandle": [
+  "0x40538f",
+  "0x40546c",
+  "0x4054da",
+  "0x4095f1",
+  "0x409995",
+  "0x40b03b",
+  "0x412397"
+ ],
+ "KERNEL32.DLL!LeaveCriticalSection": [
+  "0x4053ad",
+  "0x405422",
+  "0x405480",
+  "0x40551d",
+  "0x40988a",
+  "0x40993a",
+  "0x409d03",
+  "0x409e9b",
+  "0x40da6e",
+  "0x40da9e",
+  "0x40db3e",
+  "0x40dce3",
+  "0x40dd5f",
+  "0x40de2e",
+  "0x40df0a",
+  "0x40dfcf",
+  "0x40e12e",
+  "0x4123c8",
+  "0x41247b"
+ ],
+ "KERNEL32.DLL!InitializeCriticalSection": [
+  "0x4053ba",
+  "0x409631",
+  "0x40db93",
+  "0x40df57",
+  "0x40e007",
+  "0x40e05c",
+  "0x41241e"
+ ],
+ "KERNEL32.DLL!WaitForSingleObject": [
+  "0x4053d1",
+  "0x405414",
+  "0x4054ce",
+  "0x4098a4",
+  "0x409cda",
+  "0x409e72"
+ ],
+ "KERNEL32.DLL!TerminateThread": [
+  "0x405440"
+ ],
+ "KERNEL32.DLL!CreateThread": [
+  "0x4054a5"
+ ],
+ "KERNEL32.DLL!GetProcAddress": [
+  "0x40555a",
+  "0x40adac",
+  "0x40ae95",
+  "0x40e086"
+ ],
+ "KERNEL32.DLL!GetVersionExW": [
+  "0x405593",
+  "0x4055f2"
+ ],
+ "WINMM.DLL!timeBeginPeriod": [
+  "0x4056e3"
+ ],
+ "KERNEL32.DLL!Sleep": [
+  "0x4056f3",
+  "0x4092d9",
+  "0x40e0c2"
+ ],
+ "KERNEL32.DLL!WideCharToMultiByte": [
+  "0x405722",
+  "0x405746",
+  "0x40b765",
+  "0x40b79f",
+  "0x412554",
+  "0x412581",
+  "0x4125f1",
+  "0x41261b"
+ ],
+ "KERNEL32.DLL!HeapAlloc": [
+  "0x405c0a",
+  "0x408e1a",
+  "0x408ebf",
+  "0x409bf2",
+  "0x40a1d1",
+  "0x40a6e1",
+  "0x40b237",
+  "0x40b362",
+  "0x40b435",
+  "0x40b780",
+  "0x40b7ed",
+  "0x40cd45",
+  "0x40d92a",
+  "0x40d9ac",
+  "0x40db2b",
+  "0x40db57",
+  "0x40db86",
+  "0x40dc68",
+  "0x40dc8b",
+  "0x40deb1",
+  "0x40df1b",
+  "0x40e19e",
+  "0x40e236",
+  "0x40e539",
+  "0x40e749",
+  "0x40e7a9",
+  "0x40ecae",
+  "0x40ecc2",
+  "0x41244e",
+  "0x4124d5"
+ ],
+ "KERNEL32.DLL!HeapFree": [
+  "0x405cd8",
+  "0x408e4d",
+  "0x409254",
+  "0x409ed7",
+  "0x40a1ac",
+  "0x40a4bc",
+  "0x40a764",
+  "0x40b033",
+  "0x40b585",
+  "0x40b7d6",
+  "0x40cd2e",
+  "0x40d8db",
+  "0x40dd26",
+  "0x40dd42",
+  "0x40dde3",
+  "0x40dfc8",
+  "0x40dff7",
+  "0x40e18b",
+  "0x40e39a",
+  "0x40e5a8",
+  "0x40e5d8",
+  "0x40e5eb",
+  "0x40e804",
+  "0x40ed21",
+  "0x40ed34",
+  "0x4123e6",
+  "0x4123f8"
+ ],
+ "USER32.DLL!CharUpperW": [
+  "0x405ea1"
+ ],
+ "USER32.DLL!CharLowerW": [
+  "0x4066a5",
+  "0x40672c",
+  "0x406736"
+ ],
+ "COMCTL32.DLL!InitCommonControlsEx": [
+  "0x408db5"
+ ],
+ "OLE32.DLL!CoInitialize": [
+  "0x408dbd",
+  "0x409313"
+ ],
+ "USER32.DLL!MessageBoxW": [
+  "0x408de3"
+ ],
+ "USER32.DLL!DefWindowProcW": [
+  "0x408e6f"
+ ],
+ "USER32.DLL!DestroyWindow": [
+  "0x408e8d",
+  "0x408edd"
+ ],
+ "USER32.DLL!GetWindowLongW": [
+  "0x408e9c",
+  "0x4094f0"
+ ],
+ "USER32.DLL!GetWindowTextLengthW": [
+  "0x408eaa"
+ ],
+ "USER32.DLL!GetWindowTextW": [
+  "0x408ecf"
+ ],
+ "USER32.DLL!UnregisterClassW": [
+  "0x408ef3"
+ ],
+ "GDI32.DLL!GetStockObject": [
+  "0x408f52"
+ ],
+ "USER32.DLL!LoadIconW": [
+  "0x408f89"
+ ],
+ "USER32.DLL!LoadCursorW": [
+  "0x408f99"
+ ],
+ "USER32.DLL!RegisterClassExW": [
+  "0x408fc1"
+ ],
+ "USER32.DLL!IsWindowEnabled": [
+  "0x408fe8",
+  "0x409509"
+ ],
+ "USER32.DLL!EnableWindow": [
+  "0x408ff9",
+  "0x4092a3",
+  "0x409519",
+  "0x4095a5"
+ ],
+ "USER32.DLL!SetWindowLongW": [
+  "0x409073"
+ ],
+ "USER32.DLL!SetFocus": [
+  "0x409111"
+ ],
+ "USER32.DLL!CreateAcceleratorTableW": [
+  "0x4091b6"
+ ],
+ "USER32.DLL!SetForegroundWindow": [
+  "0x4091bf"
+ ],
+ "USER32.DLL!BringWindowToTop": [
+  "0x4091c6"
+ ],
+ "USER32.DLL!GetMessageW": [
+  "0x4091d9"
+ ],
+ "USER32.DLL!TranslateAcceleratorW": [
+  "0x4091ea"
+ ],
+ "USER32.DLL!TranslateMessage": [
+  "0x4091f9"
+ ],
+ "USER32.DLL!DispatchMessageW": [
+  "0x409204"
+ ],
+ "USER32.DLL!DestroyAcceleratorTable": [
+  "0x409218"
+ ],
+ "USER32.DLL!SendMessageW": [
+  "0x4092ce"
+ ],
+ "USER32.DLL!PostMessageW": [
+  "0x4092e8"
+ ],
+ "KERNEL32.DLL!LoadLibraryW": [
+  "0x40932e",
+  "0x40ad9a",
+  "0x40ae83",
+  "0x40e071"
+ ],
+ "OLE32.DLL!CoTaskMemFree": [
+  "0x40941a",
+  "0x40aeda",
+  "0x40afd8"
+ ],
+ "USER32.DLL!GetForegroundWindow": [
+  "0x409476",
+  "0x4094fe"
+ ],
+ "USER32.DLL!GetWindowThreadProcessId": [
+  "0x409487",
+  "0x4094b1"
+ ],
+ "KERNEL32.DLL!GetCurrentProcessId": [
+  "0x40948d"
+ ],
+ "USER32.DLL!IsWindowVisible": [
+  "0x4094c6"
+ ],
+ "USER32.DLL!EnumWindows": [
+  "0x40953b"
+ ],
+ "KERNEL32.DLL!GetCurrentThreadId": [
+  "0x409553",
+  "0x40958f"
+ ],
+ "USER32.DLL!SetWindowPos": [
+  "0x40956f",
+  "0x4095bc"
+ ],
+ "KERNEL32.DLL!GetModuleFileNameW": [
+  "0x409654"
+ ],
+ "KERNEL32.DLL!PeekNamedPipe": [
+  "0x4098c1"
+ ],
+ "KERNEL32.DLL!TerminateProcess": [
+  "0x4098e6",
+  "0x409f3b"
+ ],
+ "KERNEL32.DLL!SetEnvironmentVariableW": [
+  "0x40995e"
+ ],
+ "KERNEL32.DLL!GetCurrentProcess": [
+  "0x409976",
+  "0x409982",
+  "0x409f34"
+ ],
+ "KERNEL32.DLL!DuplicateHandle": [
+  "0x409989",
+  "0x4124a1"
+ ],
+ "KERNEL32.DLL!CreateProcessW": [
+  "0x409c8a"
+ ],
+ "SHELL32.DLL!ShellExecuteExW": [
+  "0x409e53"
+ ],
+ "KERNEL32.DLL!GetExitCodeProcess": [
+  "0x409efd"
+ ],
+ "KERNEL32.DLL!SetUnhandledExceptionFilter": [
+  "0x409f76",
+  "0x40a085",
+  "0x40a08c",
+  "0x40a0a0"
+ ],
+ "KERNEL32.DLL!HeapSize": [
+  "0x40a191"
+ ],
+ "KERNEL32.DLL!CreateDirectoryW": [
+  "0x40ad55"
+ ],
+ "KERNEL32.DLL!SetFileAttributesW": [
+  "0x40ad6d",
+  "0x40adf0"
+ ],
+ "KERNEL32.DLL!GetTempPathW": [
+  "0x40ad8d"
+ ],
+ "KERNEL32.DLL!DeleteFileW": [
+  "0x40adfa"
+ ],
+ "KERNEL32.DLL!GetCurrentDirectoryW": [
+  "0x40ae2b"
+ ],
+ "KERNEL32.DLL!SetCurrentDirectoryW": [
+  "0x40af81"
+ ],
+ "SHELL32.DLL!SHGetFolderLocation": [
+  "0x40af9e"
+ ],
+ "SHELL32.DLL!SHGetPathFromIDListW": [
+  "0x40afaf"
+ ],
+ "KERNEL32.DLL!CreateFileW": [
+  "0x40b151",
+  "0x40b192",
+  "0x40b1dc",
+  "0x40b1fe",
+  "0x40b323",
+  "0x40b33f",
+  "0x40b413"
+ ],
+ "KERNEL32.DLL!SetFilePointer": [
+  "0x40b28a",
+  "0x40b678"
+ ],
+ "KERNEL32.DLL!TlsFree": [
+  "0x40d901",
+  "0x40e4b6"
+ ],
+ "KERNEL32.DLL!TlsSetValue": [
+  "0x40d939",
+  "0x40eceb",
+  "0x4124c4"
+ ],
+ "KERNEL32.DLL!TlsAlloc": [
+  "0x40d998",
+  "0x40e487",
+  "0x412412"
+ ],
+ "KERNEL32.DLL!HeapReAlloc": [
+  "0x40d9df",
+  "0x40db03",
+  "0x40e55c",
+  "0x40e7cd",
+  "0x40e907"
+ ],
+ "KERNEL32.DLL!DeleteCriticalSection": [
+  "0x40dfe8"
+ ],
+ "KERNEL32.DLL!InterlockedCompareExchange": [
+  "0x40e0b0"
+ ],
+ "KERNEL32.DLL!InterlockedExchange": [
+  "0x40e0d5"
+ ],
+ "KERNEL32.DLL!GetLastError": [
+  "0x40e4c6",
+  "0x40ed86"
+ ],
+ "KERNEL32.DLL!SetLastError": [
+  "0x40e4eb",
+  "0x40edab"
+ ],
+ "KERNEL32.DLL!UnregisterWait": [
+  "0x41238e"
+ ],
+ "KERNEL32.DLL!GetCurrentThread": [
+  "0x412497"
+ ],
+ "KERNEL32.DLL!RegisterWaitForSingleObject": [
+  "0x4124b7"
+ ]
+}

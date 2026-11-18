@@ -1,0 +1,170 @@
+0x00407520: jmp      dword ptr [0x4091a0]
+0x00407526: jmp      dword ptr [0x40919c]
+0x0040752c: jmp      dword ptr [0x409198]
+0x00407532: jmp      dword ptr [0x409194]
+0x00407538: jmp      dword ptr [0x409190]
+0x0040753e: jmp      dword ptr [0x40918c]
+0x00407544: jmp      dword ptr [0x409188]
+0x0040754a: jmp      dword ptr [0x409184]
+0x00407550: jmp      dword ptr [0x409180]
+0x00407556: jmp      dword ptr [0x40917c]
+0x0040755c: jmp      dword ptr [0x409178]
+0x00407562: jmp      dword ptr [0x409090]
+0x00407568: jmp      dword ptr [0x409094]
+0x0040756e: jmp      dword ptr [0x409098]
+0x00407574: jmp      dword ptr [0x40909c]
+0x0040757a: jmp      dword ptr [0x4090a0]
+0x00407580: jmp      dword ptr [0x4090a4]
+0x00407586: jmp      dword ptr [0x4090a8]
+0x0040758c: jmp      dword ptr [0x4090ac]
+0x00407592: int3     
+0x00407593: int3     
+0x00407594: int3     
+0x00407595: int3     
+0x00407596: int3     
+0x00407597: int3     
+0x00407598: int3     
+0x00407599: int3     
+0x0040759a: int3     
+0x0040759b: int3     
+0x0040759c: int3     
+0x0040759d: int3     
+0x0040759e: int3     
+0x0040759f: int3     
+0x004075a0: mov      eax, dword ptr [esp + 8]
+0x004075a4: mov      ecx, dword ptr [esp + 0x10]
+0x004075a8: or       ecx, eax
+0x004075aa: mov      ecx, dword ptr [esp + 0xc]
+0x004075ae: jne      0x4075b9
+0x004075b0: mov      eax, dword ptr [esp + 4]
+0x004075b4: mul      ecx
+0x004075b6: ret      0x10
+0x004075b9: push     ebx
+0x004075ba: mul      ecx
+0x004075bc: mov      ebx, eax
+0x004075be: mov      eax, dword ptr [esp + 8]
+0x004075c2: mul      dword ptr [esp + 0x14]
+0x004075c6: add      ebx, eax
+0x004075c8: mov      eax, dword ptr [esp + 8]
+0x004075cc: mul      ecx
+0x004075ce: add      edx, ebx
+0x004075d0: pop      ebx
+0x004075d1: ret      0x10
+0x004075d4: cmp      ecx, dword ptr [0x40c040]
+0x004075da: jne      0x4075de
+0x004075dc: repz ret 
+0x004075de: jmp      0x407aa2
+0x004075e3: int3     
+0x004075e4: jmp      dword ptr [0x4090b0]
+0x004075ea: jmp      dword ptr [0x4090b4]
+0x004075f0: jmp      dword ptr [0x4090b8]
+0x004075f6: jmp      dword ptr [0x4090bc]
+0x004075fc: jmp      dword ptr [0x4090c0]
+0x00407602: jmp      dword ptr [0x4090c4]
+0x00407608: jmp      dword ptr [0x4090c8]
+0x0040760e: jmp      dword ptr [0x4090cc]
+0x00407614: jmp      dword ptr [0x4090d0]
+0x0040761a: jmp      dword ptr [0x4090d4]
+0x00407620: jmp      dword ptr [0x4090d8]
+0x00407626: jmp      dword ptr [0x409084]
+0x0040762c: jmp      dword ptr [0x4090e0]
+0x00407632: jmp      dword ptr [0x4090e4]
+0x00407638: jmp      dword ptr [0x4090e8]
+0x0040763e: jmp      dword ptr [0x4090ec]
+0x00407644: jmp      dword ptr [0x4090f0]
+0x0040764a: jmp      dword ptr [0x4090f4]
+0x00407650: cmp      cl, 0x40
+0x00407653: jae      0x40766b
+0x00407655: cmp      cl, 0x20
+0x00407658: jae      0x407660
+0x0040765a: shrd     eax, edx, cl
+0x0040765d: sar      edx, cl
+0x0040765f: ret      
+0x00407660: mov      eax, edx
+0x00407662: sar      edx, 0x1f
+0x00407665: and      cl, 0x1f
+0x00407668: sar      eax, cl
+0x0040766a: ret      
+0x0040766b: sar      edx, 0x1f
+0x0040766e: mov      eax, edx
+0x00407670: ret      
+0x00407671: int3     
+0x00407672: int3     
+0x00407673: int3     
+0x00407674: int3     
+0x00407675: int3     
+0x00407676: int3     
+0x00407677: int3     
+0x00407678: int3     
+0x00407679: int3     
+0x0040767a: int3     
+0x0040767b: int3     
+0x0040767c: int3     
+0x0040767d: int3     
+0x0040767e: int3     
+0x0040767f: int3     
+0x00407680: push     edi
+0x00407681: push     esi
+0x00407682: push     ebx
+0x00407683: xor      edi, edi
+0x00407685: mov      eax, dword ptr [esp + 0x14]
+0x00407689: or       eax, eax
+0x0040768b: jge      0x4076a1
+0x0040768d: inc      edi
+0x0040768e: mov      edx, dword ptr [esp + 0x10]
+0x00407692: neg      eax
+0x00407694: neg      edx
+0x00407696: sbb      eax, 0
+0x00407699: mov      dword ptr [esp + 0x14], eax
+0x0040769d: mov      dword ptr [esp + 0x10], edx
+0x004076a1: mov      eax, dword ptr [esp + 0x1c]
+0x004076a5: or       eax, eax
+0x004076a7: jge      0x4076bd
+0x004076a9: inc      edi
+0x004076aa: mov      edx, dword ptr [esp + 0x18]
+0x004076ae: neg      eax
+0x004076b0: neg      edx
+0x004076b2: sbb      eax, 0
+0x004076b5: mov      dword ptr [esp + 0x1c], eax
+0x004076b9: mov      dword ptr [esp + 0x18], edx
+0x004076bd: or       eax, eax
+0x004076bf: jne      0x4076d9
+0x004076c1: mov      ecx, dword ptr [esp + 0x18]
+0x004076c5: mov      eax, dword ptr [esp + 0x14]
+0x004076c9: xor      edx, edx
+0x004076cb: div      ecx
+0x004076cd: mov      ebx, eax
+0x004076cf: mov      eax, dword ptr [esp + 0x10]
+0x004076d3: div      ecx
+0x004076d5: mov      edx, ebx
+0x004076d7: jmp      0x40771a
+0x004076d9: mov      ebx, eax
+0x004076db: mov      ecx, dword ptr [esp + 0x18]
+0x004076df: mov      edx, dword ptr [esp + 0x14]
+0x004076e3: mov      eax, dword ptr [esp + 0x10]
+0x004076e7: shr      ebx, 1
+0x004076e9: rcr      ecx, 1
+0x004076eb: shr      edx, 1
+0x004076ed: rcr      eax, 1
+0x004076ef: or       ebx, ebx
+0x004076f1: jne      0x4076e7
+0x004076f3: div      ecx
+0x004076f5: mov      esi, eax
+0x004076f7: mul      dword ptr [esp + 0x1c]
+0x004076fb: mov      ecx, eax
+0x004076fd: mov      eax, dword ptr [esp + 0x18]
+0x00407701: mul      esi
+0x00407703: add      edx, ecx
+0x00407705: jb       0x407715
+0x00407707: cmp      edx, dword ptr [esp + 0x14]
+0x0040770b: ja       0x407715
+0x0040770d: jb       0x407716
+0x0040770f: cmp      eax, dword ptr [esp + 0x10]
+0x00407713: jbe      0x407716
+0x00407715: dec      esi
+0x00407716: xor      edx, edx
+0x00407718: mov      eax, esi
+0x0040771a: dec      edi
+0x0040771b: jne      0x407724
+0x0040771d: neg      edx
+0x0040771f: neg      eax
