@@ -2,6 +2,8 @@
 
 Recovery project for a soft-bricked **ZTE B860H v1** set-top box (STB) manufactured by **PT Adi Reka Mandiri**.
 
+UPDATE AS OF NOVEMBER 18, 2026: THERE ARE NO DEVICES THAT CANNOT BE UNBRICKED USING THIS REPO. THIS WILL BE UPDATED IN THE FUTURE ONCE IT IS POSSIBLE TO UNBRICK THEM USING THIS REPO WITHOUT A MICRO SD CARD.
+
 ## Device Specs
 
 | Component | Details |
